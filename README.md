@@ -1,6 +1,6 @@
 # ARC Demo
 
-This is an example of setting up [Actions Runner Controller](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/about-actions-runner-controller)) (ARC) on a Kubernetes cluster (Minikube in a Codespace).
+This is an example of setting up [Actions Runner Controller](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/about-actions-runner-controller) (ARC) on a Kubernetes cluster (Minikube in a Codespace).
 
 This will create Actions runners in a GitHub organization.
 
@@ -17,7 +17,7 @@ This will create Actions runners in a GitHub organization.
 - Create a [Codespace secret](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-secrets-for-your-codespaces) named `ARC_DEMO_TOKEN` with the value of the personal access token created in the previous step
 - Create another Codespace secret named `ARC_CONFIG_URL` with the value of the GitHub organization you want to create the runners in (e.g., `https://github.com/bxtp4p-demos`)
 - Start the Codespace
-- Make sure that Minikube is running by running `minikube start`
+- Make sure that Minikube is running by running `minikube start` in the terminal
 
 ## Using the runners in an Actions workflow
 
