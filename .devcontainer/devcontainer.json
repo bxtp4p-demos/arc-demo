@@ -38,6 +38,9 @@
 	"secrets": {
 		"ARC_DEMO_TOKEN": {
 		  "description": "The PAT to use for the ARC runners"
+		},
+		"ARC_CONFIG_URL": {
+		  "description": "The URL to the organization to create the runners in (e.g., https://github.com/bxtp4p-demos)"
 		}
 	 }
 	 
